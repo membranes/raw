@@ -63,7 +63,7 @@ class Interface:
         # Write
         message = self.__streams.write(
             blob=data, path=os.path.join(self.__configurations.raw_, 'dataset.csv'))
-        self.__logger.info(message)
+        self.__logger.info('Data Acqusition: %s', message)
 
         # Inventory of data files
         strings = self.__dictionary.exc(
