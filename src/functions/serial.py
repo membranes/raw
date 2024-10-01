@@ -1,8 +1,10 @@
 """
 Module serial.py
 """
-import yaml
+import sys
+
 import requests
+import yaml
 
 
 class Serial:
@@ -12,6 +14,10 @@ class Serial:
     Description
     -----------
     Present, this class reads-in local YAML data files; YAML is a data serialisation language.
+
+    Note
+    ----
+    standard import "sys" should be placed before third party imports "yaml", "requests"
     """
 
     def __init__(self):
@@ -38,7 +44,8 @@ class Serial:
         if response.status_code == 200:
             content = response.content.decode(encoding='utf-8')
             return yaml.safe_load(content)
-        raise f'Failure code: {response.status_code}'
+
+        sys.exit(f'Data Request Issue: {response.status_code}')
 
     @staticmethod
     def read(uri: str) -> dict:
