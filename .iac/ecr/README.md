@@ -16,8 +16,6 @@ aws ecr delete-repository \
     --force
 ```
 
-
-
 <br>
 <br>
 
