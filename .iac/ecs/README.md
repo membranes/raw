@@ -1,11 +1,10 @@
 <br>
 
-The Amazon ECS (Elastic Container Service) settings.
+## The Amazon ECS (Elastic Container Service) settings.
 
 * [Cluster](#amazon-ecs-cluster)
 * [Task Definition](#amazon-ecs-task-definition)
 
-<br>
 <br>
 
 ### Amazon ECS Cluster
