@@ -3,8 +3,7 @@
 **Development Notes**
 
 >[!NOTE]
-> PENDING
-> 
+> PENDING<br>
 > Path: Local Machine $\rightarrow$ GitHub: Code Analysis $\rightarrow$ GitHub: Image Building $\rightarrow$ Image Repositories
 
 <br>
