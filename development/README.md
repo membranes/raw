@@ -4,6 +4,7 @@
 
 >[!NOTE]
 > PENDING
+> 
 > Path: Local Machine $\rightarrow$ GitHub: Code Analysis $\rightarrow$ GitHub: Image Building $\rightarrow$ Image Repositories
 
 <br>
