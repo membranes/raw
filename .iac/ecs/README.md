@@ -10,7 +10,7 @@ The Amazon ECS (Elastic Container Service) settings.
 
 ### Amazon ECS Cluster
 
-A cluster for the containers
+A [cluster](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/clusters.html) for a group of tasks and services.
 
 <br>
 
