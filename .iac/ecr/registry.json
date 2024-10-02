@@ -2,11 +2,11 @@
   "tags": [
     {
       "Key": "description",
-      "Value": "A repository for the core entity recognition project."
+      "Value": "A repository for the core token classification model development project."
     },
     {
       "Key": "usage",
-      "Value": "For hosting the images of all the development and deployment stages."
+      "Value": "For hosting the images of the project."
     }
   ]
 }
