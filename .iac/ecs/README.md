@@ -17,7 +17,7 @@ A [cluster](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/clusters
 
 For an in depth understanding of task definitions study [Amazon ECS Task Definition](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html), and for a programmatic _task definition registration_ option study [register-task-definition](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecs/register-task-definition.html) 
 
-Beware:
+Beware:[^errors]
 * --container-definitions node of a task definition template
   * 'cpu': Is optional for Fargate launch types
   * 'memory': *ditto*
@@ -37,3 +37,5 @@ Beware:
 
 <br>
 <br>
+
+[^errors]: [Troubleshoot Amazon ECS task definition invalid CPU or memory errors](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-cpu-memory-error.html)
