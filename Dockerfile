@@ -23,7 +23,7 @@ COPY config.py /app/config.py
 EXPOSE 8050
 
 # Create mountpoint
-RUN chown -R automata:automaton /app/warehouse
+RUN chown -R automaton:automata /app/warehouse
 VOLUME /app/warehouse
 
 # automaton
