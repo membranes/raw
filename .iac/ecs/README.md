@@ -13,6 +13,12 @@ A [cluster](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/clusters
 
 <br>
 
+### Logs
+
+Create a CloudWatch Log Group for the `raw` project's task definition.
+
+<br>
+
 ### Amazon ECS Task Definition
 
 For an in depth understanding of task definitions study [Amazon ECS Task Definition](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html), and for a programmatic _task definition registration_ option study [register-task-definition](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecs/register-task-definition.html) 
