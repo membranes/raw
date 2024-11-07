@@ -21,4 +21,4 @@ class Config:
         self.source = 'https://raw.githubusercontent.com/membranes/.github/refs/heads/master/data/dataset.csv'
 
         # A template of Amazon S3 (Simple Storage Service) parameters
-        self.s3_parameters_template = 'https://raw.githubusercontent.com/membranes/.github/refs/heads/master/profile/s3_parameters.yaml'
+        self.s3_parameters_template = 'https://raw.githubusercontent.com/membranes/configurations/refs/heads/master/data/s3_parameters.yaml'
