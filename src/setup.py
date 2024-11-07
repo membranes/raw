@@ -42,6 +42,7 @@ class Setup:
 
             temporary = src.s3.keys.Keys(
                 service=self.__service, bucket_name=self.__s3_parameters.internal).all()
+            print(temporary)
 
             return bucket.empty() if temporary else True
 
