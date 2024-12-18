@@ -5,7 +5,7 @@
 This repository's image:
 
 * Deletes all the contents of an Amazon S3 (Simple Storage Service) bucket.  
-* Re-acquires and delivers the project's raw data; orange path.
+* Re-acquires the project's raw data, and delivers it to a raw data partition; orange path.
 
 <br>
 
