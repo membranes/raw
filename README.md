@@ -24,6 +24,8 @@ This repository's image:
 
 For more about the POS (parts of speech) classes read [Tree Syntax of Natural Language](https://www.cs.cornell.edu/courses/cs474/2004fa/lec1.pdf).  A note about this data's tags is [here](https://theartificialintelligenceunit.github.io/intelligence/html/c-dispatches-data-profiles.html).
 
+<br>
+
 | Sentence #    | Word           | POS  | Tag   |
 |:--------------|:---------------|:-----|:------|
 | &nbsp; | &nbsp; &nbsp; $\vdots$            | &nbsp; $\vdots$   | $\vdots$     |
