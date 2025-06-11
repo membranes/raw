@@ -24,7 +24,7 @@ This repository's image:
 
 | Sentence #    | Word           | POS  | Tag   |
 |:--------------|:---------------|:-----|:------|
-| &nbsp; | &nbsp; &nbsp; $\vdots$            | &nbsp; $\vdots$   | &nbsp; $\vdots$     |
+| &nbsp; | &nbsp; &nbsp; $\vdots$            | &nbsp; $\vdots$   | $\vdots$     |
 | Sentence: 461 | The            | DT   | O     |
 | &nbsp;        | report         | NN   | O     |
 | &nbsp;        | said           | VBD  | O     |
